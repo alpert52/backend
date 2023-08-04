@@ -1,0 +1,28 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-photoop-prod-94240-authRole",
+      "UnauthRoleArn": "arn:aws:iam::652453621243:role/amplify-photoop-prod-94240-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::652453621243:role/amplify-photoop-prod-94240-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-photoop-prod-94240-deployment",
+      "UnauthRoleName": "amplify-photoop-prod-94240-unauthRole",
+      "StackName": "amplify-photoop-prod-94240",
+      "StackId": "arn:aws:cloudformation:us-west-2:652453621243:stack/amplify-photoop-prod-94240/ee1bc140-32e5-11ee-b68d-0a3aed41439b",
+      "AmplifyAppId": "dhio6clqqxihz"
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-photoop-test-94334-authRole",
+      "UnauthRoleArn": "arn:aws:iam::652453621243:role/amplify-photoop-test-94334-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::652453621243:role/amplify-photoop-test-94334-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-photoop-test-94334-deployment",
+      "UnauthRoleName": "amplify-photoop-test-94334-unauthRole",
+      "StackName": "amplify-photoop-test-94334",
+      "StackId": "arn:aws:cloudformation:us-west-2:652453621243:stack/amplify-photoop-test-94334/0e6bb270-32e6-11ee-a134-02e8f5bf50a7",
+      "AmplifyAppId": "dhio6clqqxihz"
+    }
+  }
+}
