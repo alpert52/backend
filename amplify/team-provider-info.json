@@ -22,7 +22,27 @@
       "UnauthRoleName": "amplify-photoop-test-94334-unauthRole",
       "StackName": "amplify-photoop-test-94334",
       "StackId": "arn:aws:cloudformation:us-west-2:652453621243:stack/amplify-photoop-test-94334/0e6bb270-32e6-11ee-a134-02e8f5bf50a7",
-      "AmplifyAppId": "dhio6clqqxihz"
+      "AmplifyAppId": "dhio6clqqxihz",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-photoop-test-94334-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "photoopaf2c8847af2c8847": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "photoopaf2c8847af2c8847PostConfirmation": {
+          "GROUP": "",
+          "deploymentBucketName": "amplify-photoop-test-94334-deployment",
+          "s3Key": "amplify-builds/photoopaf2c8847af2c8847PostConfirmation-49625345507246356156-build.zip"
+        }
+      },
+      "storage": {
+        "UserCreatedMedia": {}
+      },
+      "api": {
+        "photoop": {}
+      }
     }
   }
 }

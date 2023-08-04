@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "photoopaf2c8847af2c8847",
+  "functionName": "photoopaf2c8847af2c8847PostConfirmation",
+  "resourceName": "photoopaf2c8847af2c8847PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "photoopaf2c8847af2c8847PostConfirmation",
+  "skipEdit": true
+}

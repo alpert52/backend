@@ -1,0 +1,19 @@
+{
+  "resourceName": "UserCreatedMedia",
+  "policyUUID": "8025eb45",
+  "bucketName": "photo-op-user-created-media",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [],
+  "triggerFunction": "NONE",
+  "groupAccess": {
+    "MediaCreators": [
+      "CREATE_AND_UPDATE",
+      "READ",
+      "DELETE"
+    ],
+    "MediaBuyers": [
+      "READ"
+    ]
+  }
+}
