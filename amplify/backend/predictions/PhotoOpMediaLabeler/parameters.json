@@ -1,0 +1,15 @@
+{
+    "resourceName": "PhotoOpMediaLabeler",
+    "identifyPolicyName": "identifyPolicy7e7c737c",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "adminAuthProtected": "DISALLOW",
+    "adminGuestProtected": "DISALLOW",
+    "identifyType": "identifyLabels",
+    "access": "auth",
+    "type": "ALL"    
+}

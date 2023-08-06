@@ -29,6 +29,12 @@ export type AmplifyDependentResourcesAttributes = {
       "Region": "string"
     }
   },
+  "predictions": {
+    "PhotoOpMediaLabeler": {
+      "region": "string",
+      "type": "string"
+    }
+  },
   "storage": {
     "UserCreatedMedia": {
       "BucketName": "string",
